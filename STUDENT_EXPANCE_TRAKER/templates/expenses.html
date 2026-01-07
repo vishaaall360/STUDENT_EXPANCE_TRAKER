@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expenses</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Expense List</h2>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Action</th>
+        </tr>
+
+        {% for e in expenses %}
+        <tr>
+            <td>{{ e[1] }}</td>
+            <td>₹{{ e[2] }}</td>
+            <td>{{ e[3] }}</td>
+            <td><a href="/delete/{{ e[0] }}">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h3>Total Spent: ₹{{ total }}</h3>
+    <a href="/">Add More</a>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== PAGE ===== */
+body {
+    min-height: 100vh;
+    background: #f5f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 900px;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== HEADING ===== */
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #f1f5f9;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+/* ===== ACTION ===== */
+.action {
+    color: #dc2626;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ===== TOTAL ===== */
+.total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ===== LINK ===== */
+.link {
+    display: inline-block;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 14px;
+}

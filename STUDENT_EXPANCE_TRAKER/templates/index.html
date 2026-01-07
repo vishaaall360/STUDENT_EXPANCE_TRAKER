@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Expense</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card form-card">
+    <h1>Student Expense Tracker</h1>
+
+    <form method="POST" action="/add">
+        <input type="text" name="title" placeholder="Expense title" required>
+        <input type="number" name="amount" placeholder="Amount (₹)" required>
+
+        <select name="category">
+            <option>Food</option>
+            <option>Travel</option>
+            <option>Education</option>
+            <option>Other</option>
+        </select>
+
+        <button>Add Expense</button>
+    </form>
+
+    <a class="link" href="/expenses">View Dashboard</a>
+</div>
+
+</body>
+</html>

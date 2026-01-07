@@ -1,0 +1,74 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== PAGE ===== */
+body {
+    min-height: 100vh;
+    background: #f5f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: #ffffff;
+    width: 360px;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== HEADING ===== */
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ===== INPUTS ===== */
+input, select {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    border-color: #2563eb;
+}
+
+/* ===== BUTTON ===== */
+button {
+    width: 100%;
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/* ===== LINK ===== */
+.link {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 14px;
+}
